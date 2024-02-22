@@ -1,0 +1,15 @@
+{
+    "name": "mobius/hello",
+    "type": "library",
+    "require": {
+        "laravel/framework": ">=9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mobius\\Hello\\": "src/"
+        }
+    }
+}
